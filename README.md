@@ -2,7 +2,7 @@
 #This project is sample .Net Core 6.0 WebAPI project, which used Entity Framework core and Scaffolding Database methods to create a API project
 #Steps :
 #Add Connection String  :
-#Server=localhost;Database=Northwind;Uid=root;Pwd=root
+#Server=localhost;Database=Northwind;Uid=root;Pwd=******
 
 #Packages to install :
 #dotnet add package Microsoft.EntityFrameworkCore.Design
