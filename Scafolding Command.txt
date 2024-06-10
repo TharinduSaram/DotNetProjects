@@ -1,0 +1,22 @@
+dotnet ef dbcontext scaffold Name=NorthwindDB 
+Pomelo.EntityFrameworkCore.MySql 
+--output-dir Models 
+--context-dir Data 
+--namespace Northwind.Models 
+--context-namespace Northwind.Data 
+--context NorthwindContext -f 
+
+add package Microsoft.AspNetCore.Mvc.NewtonsoftJson
+
+Name : Name we given for connection string
+output-dir for Model
+context-dir Data (Output directory for context)
+Namespace for model : Northwind.Models
+namespace for DBcontext is Northwind.Data
+-f - Run the command forcefully, which means 
+
+
+TO create Dbcontext we scaffold the database name : NorthwindDB (Which we have given to connection string,from here we can access to the database)
+
+
+If you add or delete the columns in the table, then you need to run the scaffold command metioned above again

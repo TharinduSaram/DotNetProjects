@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "19+ThEh3FSGWlAaMDuaAfdCLA4ZT6SerDvcqUS2CH9U=",
+  "Source": "northwind.MYSQL",
+  "BasePath": "_content/northwind.MYSQL",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
